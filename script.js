@@ -7,7 +7,7 @@ alert("I have no idea how I did this btw")
 alert("but I wanted to impress you")
 alert("but anyways one last thing")
 // do this for 30 seconds 
-
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
 var duration = 30 * 1000; 
 var end = Date.now() + duration;
 
