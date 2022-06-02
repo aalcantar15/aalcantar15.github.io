@@ -27,8 +27,8 @@ var end = Date.now() + duration;
       origin: { x: 1 }
     });
 
-// keep going until we are out of time 
-if (Date.now() < end) { 
-requestAnimationFrame(frame);
-}
+  // keep going until we are out of time 
+  if (Date.now() < end) { 
+    requestAnimationFrame(frame);
+  }
 }());
